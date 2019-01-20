@@ -1,0 +1,3 @@
+site_name: 販売管理
+extra_css:
+  - "css/mkdocs.css"
