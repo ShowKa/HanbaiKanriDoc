@@ -1,0 +1,14 @@
+    @startuml
+title
+訂正履歴表示
+end title
+'state
+state モード_参照 {
+  state 表示対象_入荷
+  state 表示対象_入荷訂正履歴
+}
+'モード_参照
+表示対象_入荷 -> 表示対象_入荷訂正履歴 : 訂正履歴
+表示対象_入荷訂正履歴 -> 表示対象_入荷
+'end
+@enduml

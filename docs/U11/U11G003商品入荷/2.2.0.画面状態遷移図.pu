@@ -1,4 +1,4 @@
-@startuml
+    @startuml
 title
 商品入荷登録画面の状態遷移
 end title
